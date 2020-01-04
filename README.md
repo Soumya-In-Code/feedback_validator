@@ -26,6 +26,7 @@ Request with Good feedback:
 -------
 URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/U1?feedback=nice&productId=P1
 Method : GET
+
 Response: 
 {
     "feedback": "nice",
@@ -39,6 +40,7 @@ Request with bad feedback:
 ------
 URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/U1?feedback=crap&productId=P1
 Method : GET
+
 Response:
 {
     "feedback": "",
