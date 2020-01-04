@@ -6,12 +6,12 @@ Work flow and logic:-
 If the feedback contains any word which are objectionable then the response will not have any value "feedback" attribute and the "publish" attribute will be false.
 The attrbute "publish" is a boolean type which tells that a feedback should be published or not.
 
-For the feedback with no objectionable strings the "publish" attribute in response body will be true and the feedback" attribute will hold the actual feedback entered by the user. 
+For the feedback with no objectionable strings the "publish" attribute in response body will be true and the "feedback" attribute will hold the actual feedback entered by the user. 
 
 -----------------------------------------------
 API Details:
 URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/{userId}?feedback={users feedback}&productId={productId}
-Method : GET,
+Method : GET
 Response format: JSON
 
 -----------------------------------------------
