@@ -19,8 +19,8 @@ This application stores objectionable Strings/Words in Ternary Search Tree(TST) 
 -----------------------------------------------
 API Details:
 ------
-URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/{userId}?feedback={feedback}&productId={productId}
-Method : GET
+URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/{userId}?feedback={feedback}&productId={productId}    
+Method : GET                                                                                                                
 Response format: JSON
 
 -----------------------------------------------
@@ -28,9 +28,8 @@ Sample request and response:
 ------
 Request with Good feedback:
 -------
-URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/U1?feedback=nice&productId=P1
-Method : GET
-
+URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/U1?feedback=nice&productId=P1               
+Method : GET                                                                                                                         
 Response: 
 {
     "feedback": "nice",
@@ -43,8 +42,7 @@ Response:
 Request with bad feedback:
 ------
 URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/U1?feedback=crap&productId=P1
-Method : GET
-
+Method : GET                                                                                                                           
 Response:
 {
     "feedback": "",
