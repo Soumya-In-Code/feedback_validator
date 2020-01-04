@@ -7,12 +7,13 @@ The REST API is expected to take a piece of text as an input and respond with fe
 Work flow and logic:-
 ------
 
-If the feedback contains any word which are objectionable then the response will not have any value "feedback" attribute and the "publish" attribute will be false.
-The attrbute "publish" is a boolean type which tells that a feedback should be published or not.
+If the feedback entered by customer contains any word which is/are objectionable then in the response body the "feedback" attribute will be empty and the "publish" attribute will be false.
+The attrbute "publish" is a boolean type which tells that a customers feedback should be published or not.
 
 For the feedback with no objectionable strings the "publish" attribute in response body will be true and the "feedback" attribute will hold the actual feedback entered by the user. 
 
-To know the input string (feedback) contains any objectionable words or not, this application stores objectionable Strings/Words in Ternary Search Tree just after the application starts. (As of now we have stored few words for testing purpose.)
+How To know the input string (feedback) contains objectionable word/s ? 
+This application stores objectionable Strings/Words in Ternary Search Tree(TST) just after the application starts (As of now we have stored few words for testing purpose), then once the the customer hits submit/publish button with his/her feedback this REST API checks each and every word of the input feedback in the Ternary Search Tree (TST). If we get a matching word in TST that means the input feedback has objectionable content.  
 
 -----------------------------------------------
 API Details:
