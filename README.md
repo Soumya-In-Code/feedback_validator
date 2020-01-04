@@ -1,5 +1,7 @@
 # feedback_validator
-This project is a simple API to validate the comment text to prevent customers from posting objectionable content. 
+Customers to post comment/feedback on specific products in the product details page. These comments are visible to all other customers.
+
+This project is a simple Springboot application to validate the comment text to prevent customers from posting objectionable content. 
 The REST API is expected to take a piece of text as an input and respond with feedback regarding objectionable content.
 
 Work flow and logic:-
