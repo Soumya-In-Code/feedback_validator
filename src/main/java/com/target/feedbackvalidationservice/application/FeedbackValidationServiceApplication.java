@@ -23,7 +23,7 @@ public class FeedbackValidationServiceApplication {
 	
 	@PostConstruct
     public void loadStrings() { 
-		String []words = {"crap", "idea", "shit", "p**p", "cheap", "f*ck"};
+		String []words = {"crap", "idiot", "shit", "p**p", "cheap", "shitty", "f*ck", "stupid"};
 		for(String word : words) {
 			ternarySearchTree.insert(word);
 		}

@@ -73,6 +73,7 @@ public class TernarySearchTreeImpl implements TernarySearchTree{
 		Boolean flag = false;
 		String[] words = feedback.split(" ");
 		for(String word : words) {
+			word = word.toLowerCase();
 			flag = search(temp, word, 0);
 			if(flag) {
 				break;
