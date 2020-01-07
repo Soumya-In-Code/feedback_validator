@@ -31,7 +31,7 @@ public class FeedbackValidationServiceImpl implements FeedbackValidationService 
 			}
 			feedbackValidationServiceResponse.setUserId(userId);
 			feedbackValidationServiceResponse.setProductId(productId);
-			logger.info("Abusive ? :"+feedbackValidationServiceResponse.isPublish());
+			logger.info("Abusive ? : "+feedbackValidationServiceResponse.isPublish());
 		}catch(Exception ex) {
 			logger.debug(ex.getMessage());
 			new FeedbackvalidationserviceException(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());

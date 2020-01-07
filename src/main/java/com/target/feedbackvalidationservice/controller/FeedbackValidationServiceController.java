@@ -26,7 +26,7 @@ public class FeedbackValidationServiceController {
 	@GetMapping(value = "/validateFeedback/userId/{userId}")
 	public FeedbackValidationServiceResponse validateFeedback(@PathVariable("userId") final String userId,
 			@RequestParam("feedback") String feedback, @RequestParam("productId") String productId) {
-		logger.info("feedback"+feedback);
+		logger.info("feedback : "+feedback);
 		return feedbackValidationService.feedbackValidator(userId, feedback, productId);
 	}
 }
