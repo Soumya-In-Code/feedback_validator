@@ -34,7 +34,7 @@ public class FeedbackValidationServiceImpl implements FeedbackValidationService 
 			logger.info("Abusive ? : "+feedbackValidationServiceResponse.isPublish());
 		}catch(Exception ex) {
 			logger.debug(ex.getMessage());
-			new FeedbackvalidationserviceException(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());
+			throw new FeedbackvalidationserviceException(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());
 		}
 		return feedbackValidationServiceResponse;
 	}
