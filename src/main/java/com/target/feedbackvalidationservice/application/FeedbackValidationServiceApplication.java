@@ -10,6 +10,11 @@ import com.target.feedbackvalidationservice.service.TernarySearchTree;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * @author soumya.in.coding
+ * 
+ */
+
 @SpringBootApplication(scanBasePackages = {"com.target.feedbackvalidationservice"})
 @EnableSwagger2
 public class FeedbackValidationServiceApplication {

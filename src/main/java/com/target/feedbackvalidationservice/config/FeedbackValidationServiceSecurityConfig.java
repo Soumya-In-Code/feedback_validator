@@ -3,6 +3,11 @@ package com.target.feedbackvalidationservice.config;
 //import org.springframework.context.annotation.Configuration;
 //import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
+/**
+ * @author soumya.in.coding
+ * 
+ */
+
 //@Configuration
 //@EnableWebSecurity
 public class FeedbackValidationServiceSecurityConfig {

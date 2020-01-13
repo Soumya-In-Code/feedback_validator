@@ -5,6 +5,11 @@ import org.springframework.stereotype.Service;
 import com.target.feedbackvalidationservice.model.TernarySearchTreeNode;
 import com.target.feedbackvalidationservice.service.TernarySearchTree;
 
+/**
+ * @author soumya.in.coding
+ * 
+ */
+
 @Service
 public class TernarySearchTreeImpl implements TernarySearchTree{
 	

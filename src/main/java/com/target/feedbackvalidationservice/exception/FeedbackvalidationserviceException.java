@@ -6,13 +6,17 @@ import org.springframework.http.HttpStatus;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
+/**
+ * @author soumya.in.coding
+ * 
+ */
+
 public class FeedbackvalidationserviceException extends NestedRuntimeException{
 
 	private final HttpStatus status;
 
 	@Nullable
 	private final String reason;
-
 
 	/**
 	 * Constructor with a response status.

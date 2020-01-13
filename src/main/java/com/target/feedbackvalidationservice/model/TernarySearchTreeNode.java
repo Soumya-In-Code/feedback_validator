@@ -1,5 +1,10 @@
 package com.target.feedbackvalidationservice.model;
 
+/**
+ * @author soumya.in.coding
+ * 
+ */
+
 public class TernarySearchTreeNode {
 	
 	Character data;
