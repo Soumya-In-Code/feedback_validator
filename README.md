@@ -1,4 +1,4 @@
-# feedback_validator
+# feedback_validator using Ternary Search Tree (TST)
 Customers to post comment/feedback on specific products in the product details page. These comments are visible to all other customers.
 
 This project is a simple Springboot application to validate the comment text to prevent customers from posting objectionable content. 
