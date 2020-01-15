@@ -1,4 +1,4 @@
-# feedback_validator
+# feedback_validator using Ternary Search Tree (TST)
 Customers to post comment/feedback on specific products in the product details page. These comments are visible to all other customers.
 
 This project is a simple Springboot application to validate the comment text to prevent customers from posting objectionable content. 
@@ -22,6 +22,8 @@ API Details:
 URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId/{userId}?feedback={feedback}&productId={productId}    
 Method : GET                                                                                                                
 Response format: JSON
+
+Swagger URL : http://localhost:9090/feedbackValidationService/swagger-ui.html
 
 -----------------------------------------------
 Sample request and response:
