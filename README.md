@@ -23,6 +23,8 @@ URL : http://localhost:9090/feedbackValidationService/v1/validateFeedback/userId
 Method : GET                                                                                                                
 Response format: JSON
 
+Swagger URL : http://localhost:9090/feedbackValidationService/swagger-ui.html
+
 -----------------------------------------------
 Sample request and response:
 ------
